@@ -51,3 +51,7 @@ const students = [
 
 const studentsList = students.map((student) => [student.id, student.name]);
 console.log(studentsList);
+const studentsList2 = students.map((student) => {
+  [student.id, student.name];
+});
+console.log(studentsList2);
